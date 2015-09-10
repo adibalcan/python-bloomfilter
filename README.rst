@@ -10,6 +10,12 @@ an implmentation of Scalable Bloom Filters as discussed in:
 P. Almeida, C.Baquero, N. Preguiça, D. Hutchison, Scalable Bloom Filters,
 (GLOBECOM 2007), IEEE, 2007.
 
+Install directly from github (last version) 
+=======
+
+    pip install +https://github.com/jaybaird/python-bloomfilter
+
+
 Bloom filters are great if you understand what amount of bits you need to set
 aside early to store your entire set. Scalable Bloom Filters allow your bloom
 filter bits to grow as a function of false positive probability and size.
